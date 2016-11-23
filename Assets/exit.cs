@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class exit : MonoBehaviour {
-	// Use this for initialization
-	void Start () {
+
+  //  private string idgame = "1208577";
+
+    // Use this for initialization
+    void Start () {
 		Debug.Log ("exit jalan");
 	}
 	
@@ -12,7 +16,8 @@ public class exit : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		Application.Quit();
+        
+       Application.Quit();
 		Debug.Log ("close");
 	}
 
@@ -24,4 +29,5 @@ public class exit : MonoBehaviour {
 		Vector3 temp = new Vector3(9.0f,0,0);
 		this.gameObject.transform.position += temp;	
 	}
+   
 }

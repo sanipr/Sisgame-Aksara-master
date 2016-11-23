@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{AF83FA3F-5D67-5B27-FE4D-9CBAD507F00F}") = "Sisgame-Aksara-master", "Assembly-CSharp.csproj", "{01017425-0466-9CE1-3782-55964954D9DC}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisgame-Aksara-master.CSharp", "Sisgame-Aksara-master.CSharp.csproj", "{AAFB8885-AF7A-D1D1-09F0-9187CAC2A2F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{01017425-0466-9CE1-3782-55964954D9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01017425-0466-9CE1-3782-55964954D9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01017425-0466-9CE1-3782-55964954D9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01017425-0466-9CE1-3782-55964954D9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFB8885-AF7A-D1D1-09F0-9187CAC2A2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFB8885-AF7A-D1D1-09F0-9187CAC2A2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFB8885-AF7A-D1D1-09F0-9187CAC2A2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFB8885-AF7A-D1D1-09F0-9187CAC2A2F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

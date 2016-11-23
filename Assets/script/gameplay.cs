@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.UI;
+
+
 [RequireComponent(typeof(AudioSource))]
 
 
@@ -31,6 +33,9 @@ public class gameplay : MonoBehaviour {
 	public GameObject exit;
     // Use this for initialization
 	void Start () {
+
+        
+
 		Screen.orientation	= ScreenOrientation.Portrait;
 		exit = (GameObject)Instantiate (Resources.Load ("exit1"), new Vector3(1.61f,-3.62f,-1f), transform.rotation);
 	}
@@ -138,7 +143,10 @@ public class gameplay : MonoBehaviour {
         belumdijawab.RemoveAt(indexRandom);
     }
 
-	IEnumerator tunggu(int i)
+   
+
+
+    IEnumerator tunggu(int i)
 	{
 		yield return new WaitForSeconds (i);
 	}

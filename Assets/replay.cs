@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Advertisements;
 using System.Collections;
 
 public class replay : MonoBehaviour {
@@ -7,13 +8,15 @@ public class replay : MonoBehaviour {
 	public exit exit;
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("replay jalan");
+        
+        Debug.Log ("replay jalan");
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (gameplay.buttonreplay) {
-				Vector3 temp = new Vector3(9.0f,0,0);
+            ShowAd();
+            Vector3 temp = new Vector3(9.0f,0,0);
 				this.gameObject.transform.position += temp;	
 				visible = true;
 				exit.visible ();
@@ -32,4 +35,12 @@ public class replay : MonoBehaviour {
 		Vector3 temp = new Vector3(-9.0f,0,0);
 		this.gameObject.transform.position += temp;
 	}
+    public void ShowAd()
+    {
+        if (Advertisement.IsReady())
+        {
+            Advertisement.Show();
+            Debug.Log("muncul ads");
+        }
+    }
 }
