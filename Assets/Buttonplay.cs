@@ -19,6 +19,7 @@ public class Buttonplay : MonoBehaviour {
 	void OnMouseDown(){
 		Debug.Log ("play pressed");
 //		gameplay.playpressed = true;
+		Destroy(gameplay.exit);
 		gameplay.play = true;
 		Destroy (aksara);
 		Destroy (menu2);

@@ -28,9 +28,11 @@ public class gameplay : MonoBehaviour {
     public Image timebar;
     public Image background;
 	public scoremanager score;
+	public GameObject exit;
     // Use this for initialization
 	void Start () {
 		Screen.orientation	= ScreenOrientation.Portrait;
+		exit = (GameObject)Instantiate (Resources.Load ("exit1"), new Vector3(1.61f,-3.62f,-1f), transform.rotation);
 	}
 
 	void Update(){
